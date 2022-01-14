@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Config</title>
+</head>
+<body>
+<div>
+    <form action="/home" method="post">
+        <div>
+            <h1>Setting</h1>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Languages</th>
+                    <td>
+                        <select name="language" id="language">
+                            <option value="English">English</option>
+                            <option value="Vietnamese">Vietnamese</option>
+                            <option value="Chinese">Chinese</option>
+                            <option value="Japanese">Japanese</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Page sizes</th>
+                    <td>
+                        <select name="page" id="page">
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Spams filter</th>
+                    <td>
+                        <input type="checkbox" name="filter" value="Enable spams filter">&ensp;<span>Enable spams filter</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Signature</th>
+                    <td>
+                        <textarea name="signature">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Upload">
+                    </td>
+                    <td>
+                        <button>
+                            <a href="/home">Cancel</a>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</div>
+</body>
+</html>
